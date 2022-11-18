@@ -485,6 +485,10 @@ fill: currentColor;
 .footer-social{
 margin-left: 70px;
 }
+.footer-mailinglist{
+  margin-left: 93px;
+}
+
 .socials-link-footer {
   display: flex;
   justify-content: center;
