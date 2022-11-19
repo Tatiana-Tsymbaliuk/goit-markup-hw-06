@@ -165,11 +165,13 @@
   </div>
   <div class="footer-mailinglist">
     <h2 class="footer-caption">Підпишіться на розсилку</h2>
-    <form class="footer-form" name="mailinglist_form" autocomplete="off" validate>
-      <input class="footer-mailinglist-field" type="email" name="footer_mail" id="" placeholder="E-mail" required
-        minlength="15">
-      <button class="footer-form-btn" type="submit">Підписатися</button>
-    </form>
+        <form class="footer-form" name="mailinglist_form" autocomplete="off" novalidate>
+          <input class="footer-mailinglist-field" type="email" name="footer_mail" placeholder="E-mail" required minlength="15">
+          <button class="footer-form-btn" type="submit">Підписатися<svg class="footer-form-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-footer-mail"></use>
+            </svg>
+          </button>
+        </form>
   </div>
   </section>
   </footer>
